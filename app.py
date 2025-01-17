@@ -72,7 +72,7 @@ app.layout = html.Div([
     figure=px.bar(top_emergency_types, x='TYP_DESC', y='Count', title="Top Emergency Types")
     .update_layout(
         xaxis_title="Emergency Type",
-        yaxis_title="Number of Calls",
+        yaxis_title="Number of 911 Calls",
         xaxis_tickangle=-45,
         margin=dict(l=20, r=20, t=40, b=80),
         height=400
